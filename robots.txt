@@ -17,6 +17,7 @@ User-agent: 360Spider
 User-agent: YisouSpider
 User-agent: EtaoSpider
 User-agent: YandexBot
+User-agent: Yandex
 Disallow: /
 
 # Allow everything for Apple bots
@@ -28,7 +29,6 @@ User-agent: Googlebot
 User-agent: Bingbot
 User-agent: DuckDuckGo
 User-agent: Yahoo! Slurp
-User-agent: Yandex
 Allow: /
 
 # Sitemap reference
