@@ -1,0 +1,35 @@
+User-agent: *
+Disallow:
+
+# Allow AI bots but block Chinese crawlers
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: BingBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+Allow: /
+
+# Block Chinese bots
+User-agent: Baiduspider
+User-agent: Sogou
+User-agent: 360Spider
+User-agent: YisouSpider
+User-agent: EtaoSpider
+User-agent: YandexBot
+Disallow: /
+
+# Allow everything for Apple bots
+User-agent: Applebot
+Allow: /
+
+# Allow indexing for search engines
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: DuckDuckGo
+User-agent: Yahoo! Slurp
+User-agent: Yandex
+Allow: /
+
+# Sitemap reference
+Sitemap: https://xain.in.ua/sitemap.xml
